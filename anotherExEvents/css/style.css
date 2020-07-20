@@ -1,0 +1,30 @@
+.closed{
+		display: none;
+
+}
+.open{
+		display: flex;
+    background-color: green;
+}
+
+button{
+			width:150px;
+  			background-color: #00CCEE;
+  			margin-left:15px;
+  			font-size:120%;
+  		}
+
+#demo{
+  		color:white;
+			
+      padding:10px;
+      font-size:120%
+}
+body{
+
+  background-image:url(https://avante.biz/wp-content/uploads/Background-Images-For-Websites/Background-Images-For-Websites-015.jpg); 
+    }
+
+    img{
+    width:95%;
+}

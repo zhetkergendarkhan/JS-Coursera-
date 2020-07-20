@@ -1,0 +1,30 @@
+#birth{
+	background-color: #F08080;
+}
+
+#name{
+	background-color: #E9967A;
+
+}
+
+#email{
+	background-color: #FA8072;
+}
+
+#sub{
+	background-color: #8B0000;
+}
+
+form{
+  width:33%;
+  height: 50%;
+}
+
+body{
+	background-image: url('https://kinobaza.online/files/picture/original/3280893.jpg');
+}
+
+fieldset{
+	background-color: white;
+	visibility: 50%;
+}

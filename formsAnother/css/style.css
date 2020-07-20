@@ -1,0 +1,22 @@
+input:focus{
+		background-color: #B3B3B3;
+}
+label{
+		display: block;
+  font-size:150%;
+}
+
+input{
+			border:1px solid black;
+		}
+		input:focus{
+			background-color: #E6E6E6;
+		}
+		#nick{
+			margin-left: 4%;
+			display:none;
+			width: 50%;
+		}
+body{
+	background-image: url('https://funart.pro/uploads/posts/2020-03/1585289423_18-p-luchshie-odnotonnie-foni-47.jpg');
+}

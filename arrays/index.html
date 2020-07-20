@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Array</title>
+    <link rel="stylesheet" href="css/style.css">	
+	<script src = "js/script.js"></script>
+
+</head>
+<body  onload="loadingFunc()">
+	
+<p id="langu"></p>
+<div>
+	<script >
+	array= [5,,,6,7,,8,3,4];
+	sum= 0;
+	count= 0;
+	for (index=0;index<array.length;index++)
+	{
+		if(array[index]!=undefined)
+		{
+		sum+=array[index];
+		count=count+1;
+        }
+
+	}
+	document.write(sum/count);
+		
+	
+</script>
+
+</div>
+
+<footer>
+<button onclick="myFunc()">Add your lang of programming</button>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMS</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+
+	
+</head>
+<body>
+	<button id="ID1" onclick="change();">Change color</button>
+	<p>if you press V the page will become violet,check</p>
+	<form action="in.html" method="POST">
+		<label>Email Address:
+			<input type="email" name="email1" id="email_adr" placeholder="text@gmail.com" required>
+		</label> </br>
+
+		<label>
+			Repeat Email:
+			<input type="email" name="email2" id="email_rep" required onchange="return check()">
+		</label>
+
+		<input type="submit" value="Confirm email" onclick="return check();" > 
+		 <input type = 'submit' value = "Save" onclick = "return false;">
+
+
+	</form></br></br></br></br> 	
+
+	<div>
+		<form action="https://www.instagram.com/neighbor.d_echelon.d/" method="GET">
+			<fieldset>
+				<legend>Form Validation</legend>
+				<label for="fName">FirstName</label>
+				<input type="text" name="fName" id="fName" required>
+
+				<label for="lName">LastName</label>
+				<input type="text" name="lName" id="lName" required>
+
+				<label for="yesNick">Nickname?</label>
+				<input type="checkbox" id="yesNick" name="yesNick" value="yes" onchange="NicknameFunc()"> </br>
+
+				<div id="nick">
+					<label for="nickname">Nickname</label>
+					<input type="text" name="nickname" id="nickname"></br>
+
+				</div>
+				<input type="submit" value="Verify">
+
+
+			</fieldset>
+		</form>
+	</div>
+
+
+</body>
+</html>
